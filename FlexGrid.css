@@ -1,57 +1,64 @@
 /* Flex Grid 
 Author: Simon Web Design, LLC
-Version: 1.1
+Version: 1.2
 */
 .outer_wrap {
 	margin: 0 auto;
 	width: 960px;
 }
 .inner_wrap {
-	padding: 50px 60px 60px 60px;
+	padding: 30px;
 }
+
+.flex_10,
+.flex_20,
+.flex_25,
+.flex_33,
+.flex_40,
+.flex_50,
+.flex_60,
+.flex_66,
+.flex_75,
+.flex_80,
+.flex_90,
+.flex_100 {
+	display:inline;
+	float: left;
+	position: relative;
+}
+
 .flex_10 {
 	width:10%;
-	float:left;
 }
 .flex_20 {
 	width:20%;
-	float:left;
 }
 .flex_25 {
 	width:25%;
-	float:left;
 }
 .flex_33 {
 	width:33%;
-	float:left;
 }
 .flex_40 {
 	width:40%;
-	float:left;
 }
 .flex_50 {
 	width:50%;
-	float:left;
 }
 .flex_60 {
 	width:60%;
-	float:left;
 }
 .flex_66 {
 	width:66%;
-	float:left;
 }
 .flex_75 {
 	width:75%;
-	float:left;
 }
 .flex_80 {
 	width:80%;
-	float:left;
 }
 .flex_90 {
 	width:90%;
-	float:left;
 }
 .flex_100 {
 	width:100%;
