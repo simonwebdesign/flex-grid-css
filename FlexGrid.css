@@ -1,15 +1,17 @@
 /* Flex Grid 
 Author: Simon Web Design, LLC
-Version: 1.2
+Version: 1.2.1
 */
+
 .outer_wrap {
-	margin: 0 auto;
-	width: 960px;
+/* Add Full screen Background here */
 }
 .inner_wrap {
-	padding: 30px;
+		margin: 0 auto;
+		width: 960px; /* Change this to the width you would like */
 }
-
+.content {
+}
 .flex_10,
 .flex_20,
 .flex_25,
@@ -22,53 +24,63 @@ Version: 1.2
 .flex_80,
 .flex_90,
 .flex_100 {
-	display:inline;
-	float: left;
-	position: relative;
+		display: inline;
+		float: left;
+		position: relative;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
 }
-
+.push {
+		margin: 1px 0px 0px 0px;
+}
 .flex_10 {
-	width:10%;
+		width: 10%;
 }
 .flex_20 {
-	width:20%;
+		width: 20%;
 }
 .flex_25 {
-	width:25%;
+		width: 25%;
 }
 .flex_33 {
-	width:33%;
+		width: 33.33%;
 }
 .flex_40 {
-	width:40%;
+		width: 40%;
 }
 .flex_50 {
-	width:50%;
+		width: 50%;
 }
 .flex_60 {
-	width:60%;
+		width: 60%;
 }
 .flex_66 {
-	width:66%;
+		width: 66%;
 }
 .flex_75 {
-	width:75%;
+		width: 75%;
 }
 .flex_80 {
-	width:80%;
+		width: 80%;
 }
 .flex_90 {
-	width:90%;
+		width: 90%;
 }
 .flex_100 {
-	width:100%;
+		width: 100%;
 }
 .flex_pad {
-	padding: 10px;
+		padding: 10px;
 }
 .flex_vert_pad {
-	padding: 10px 0px 15px 0px;
+		padding: 10px 0px 15px 0px;
 }
 .clear {
-	clear: both;
+		clear: both;
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
 }
